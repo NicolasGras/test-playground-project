@@ -1,1 +1,1 @@
-# test-github-app
+# test-playground-project
