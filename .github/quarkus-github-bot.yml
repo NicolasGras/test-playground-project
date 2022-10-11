@@ -1,0 +1,13 @@
+---
+# The format of this file is documented here:
+# https://github.com/quarkusio/quarkus-github-bot#triage-issues
+features: [ALL]
+triage:
+  rules:
+    - labels: [feature1]
+      title: "Title feature 1"
+      notify: [nicolasgras]
+      directories:
+        - feature1
+  qe:
+    notify: [nicolasgras]
