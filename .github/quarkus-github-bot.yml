@@ -5,7 +5,7 @@ features: [ALL]
 triage:
   rules:
     - labels: [feature1]
-      title: "Title feature 1"
+      title: "title-feature-1"
       notify: [nicolasgras]
       directories:
         - feature1
