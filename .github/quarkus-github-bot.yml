@@ -9,5 +9,10 @@ triage:
       notify: [nicolasgras]
       directories:
         - feature1
+    - labels: [feature2]
+      title: "feature-2"
+      notify: [nicolasgras]
+      directories:
+        - feature2
   qe:
     notify: [nicolasgras]
