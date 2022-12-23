@@ -1,4 +1,4 @@
-name: hello-world
+name: Quarkus CI
 on: push
 jobs:
   my-job:

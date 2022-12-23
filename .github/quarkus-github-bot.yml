@@ -2,6 +2,13 @@
 # The format of this file is documented here:
 # https://github.com/quarkusio/quarkus-github-bot#triage-issues
 features: [ALL]
+workflows:
+  rules:
+    - allow:
+        files:
+         - "**/README.md"
+workflowRunAnalysis:
+  workflows: ["Quarkus CI"]
 triage:
   rules:
     - labels: [feature1]
