@@ -6,7 +6,7 @@ workflows:
   rules:
     - allow:
         files:
-         - .
+         - "**/README.md"
 triage:
   rules:
     - labels: [feature1]
