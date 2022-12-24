@@ -6,3 +6,12 @@ jobs:
     steps:
       - name: my-step
         run: echo "Hello World!"
+        
+      - name: write file
+        run: echo "This is a test file" > test-file.txt
+        
+      - name: Archive file
+        uses: actions/upload-artifact@v3
+        with:
+          name: report-issue-number-42
+          path: test-file.txt
